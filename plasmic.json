@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -54,6 +54,19 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "button"
+        },
+        {
+          "id": "9ROAfQc3rH",
+          "name": "Title",
+          "type": "managed",
+          "projectId": "mUvemYxod8qcQ4ifYk9gdw",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicTitle.tsx",
+          "importSpec": {
+            "modulePath": "Title.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicTitle.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

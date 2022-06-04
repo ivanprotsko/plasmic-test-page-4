@@ -1,0 +1,135 @@
+.root {
+  flex-direction: column;
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+  .root {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 767px) {
+  .root > :global(.__wab_flex-container) {
+    flex-direction: row;
+    margin-left: calc(0px - 40px);
+    width: calc(100% + 40px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (max-width: 767px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 40px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 375px) {
+  .root {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+@media (max-width: 375px) {
+  .root > :global(.__wab_flex-container) {
+    flex-direction: row-reverse;
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (max-width: 375px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-top: 0px;
+  }
+}
+.text__nuAfT {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 2560px) {
+  .text__nuAfT {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .text__nuAfT {
+    display: block;
+  }
+}
+@media (min-width: 0px) and (max-width: 2560px) {
+  .h2 {
+    margin-right: 92px;
+    width: 187px;
+  }
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  display: none !important;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 2560px) {
+  .img {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 767px) {
+  .img {
+    display: inline-block !important;
+  }
+}
+.text__inXd9 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+  display: none;
+}
+@media (max-width: 767px) {
+  .text__inXd9 {
+    display: none;
+  }
+}
+.text__y00Fj {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+  display: none;
+}
+@media (max-width: 767px) {
+  .text__y00Fj {
+    display: none;
+  }
+}
